@@ -1,0 +1,22 @@
+.cart img {
+  width: 60px;
+}
+.cart span {
+  font-weight: bold;
+  font-size: 19px;
+  position: absolute;
+  color: white;
+  background-color: #ff6508;
+  border-radius: 15px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.cart a {
+  display: flex;
+}

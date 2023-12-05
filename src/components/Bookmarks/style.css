@@ -1,0 +1,41 @@
+.boxMarks img {
+  width: 7pc;
+  border-radius: 13px;
+}
+
+.boxMarks .bookProductoNombre {
+    font-size: 25px;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.boxMarks p {
+    font-size: 25px;
+    color: black;
+}
+
+.boxMarks {
+  margin-top: 10pc;
+  width: 600px;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: #ebebeb;
+  color: white;
+}
+
+.boxMarks h2 {
+    color: black;
+}
+
+.boxMarks a {
+    color: orange;
+}
+
+.contentMarks {
+  display: flex;
+  border: 2px solid grey;
+  border-radius: 15px;
+  margin: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+}

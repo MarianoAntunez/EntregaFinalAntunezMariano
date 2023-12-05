@@ -1,0 +1,112 @@
+.t1 {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+.filtrado {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  gap: 20px;
+  padding: 15px;
+}
+.filtrado p {
+  cursor: pointer;
+}
+
+.cent-cont {
+  padding: 1pc 10pc !important;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 0;
+  margin-bottom: 40px;
+  background-color: #ebebeb;
+  border-radius: 30px;
+}
+
+.box img {
+  width: 20pc;
+  border-radius: 20px;
+}
+
+.box h4,
+.price {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.box h4 {
+  margin-top: 10px;
+}
+
+.dataBox {
+  margin: 3px 65px 0px;
+}
+
+.box .comandos {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 10px;
+}
+
+.selected {
+  color: orange;
+}
+
+.filtrado #categoria:hover {
+  color: orange;
+  transition: 0.3s;
+}
+
+.filtrado #categoria {
+  transition: 0.3s;
+}
+
+.contCheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.contCheck {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.contCheck svg {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  transition: all 0.3s;
+  fill: white;
+  background-color: rgb(151, 151, 151);
+  border-radius: 25px;
+}
+
+.contCheck svg:hover {
+  transform: scale(1.1);
+}
+
+.contCheck input:checked ~ svg {
+  fill: yellow;
+}
+
+.contNull {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
